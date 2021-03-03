@@ -1,5 +1,5 @@
 <?php
-    $title = 'Mê Ăn Vặt';
+    $title = 'Mê Ăn Vặt QA';
     require_once 'include/header.php'
 ?>
     <!-- fOOD sEARCH Section Starts Here -->
