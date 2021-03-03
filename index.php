@@ -1,5 +1,5 @@
 <?php
-    $title = 'Mê Ăn Vặt QA';
+    $title = 'Mê Ăn Vặt';
     require_once 'include/header.php'
 ?>
     <!-- fOOD sEARCH Section Starts Here -->
@@ -17,7 +17,7 @@
     <!-- CAtegories Section Starts Here -->
     <section class="categories">
         <div class="container">
-            <h2 class="text-center">Explore Foods Tin</h2>
+            <h2 class="text-center">Explore Foods</h2>
 
             <a href="category-foods.php">
                 <div class="box-3 float-container">
