@@ -14,6 +14,24 @@
                     echo $_SESSION['add'];// Hiện thị phiên thông báo
                     unset($_SESSION['add']);// Hủy phiên thông báo
                 } 
+
+                if(isset($_SESSION['delete']))
+                {
+                    echo $_SESSION['delete'];// Hiện thị phiên thông báo
+                    unset($_SESSION['delete']);// Hủy phiên thông báo
+                } 
+
+                if(isset($_SESSION['unauthorize']))
+                {
+                    echo $_SESSION['unauthorize'];// Hiện thị phiên thông báo
+                    unset($_SESSION['unauthorize']);// Hủy phiên thông báo
+                }
+
+                if(isset($_SESSION['upload']))
+                {
+                    echo $_SESSION['upload'];// Hiện thị phiên thông báo
+                    unset($_SESSION['upload']);// Hủy phiên thông báo
+                } 
             ?>
             <table class="tbl_full">
                 <tr>
@@ -64,7 +82,7 @@
                                     </td>
                                     <td>
                                         <a href="" class="btn_update"><i class="fas fa-edit"></i> Cập nhật</a>
-                                        <a href="" class="btn_delete"><i class="far fa-trash-alt"></i> Xóa</a>
+                                        <a href="<?php echo SITEURL;?>admin/delete_food.php?food_id=<?php echo $id;?>&food_image=<?php echo $image;?>" class="btn_delete"><i class="far fa-trash-alt"></i>Xóa</a>
                                     </td>
                                 </tr>
 
@@ -77,8 +95,6 @@
                         echo "<tr><td colspan='7' class='error'>Không có món ăn nào được thêm</td></tr>";
                     }
                 ?>
-
-                
             </table>
         </div>
     </div>
