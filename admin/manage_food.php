@@ -6,7 +6,7 @@
 <div class="main_content">
         <div class="wrapper">
             <h2>Quản lý Món Ăn</h2>
-            <a href="#" class="btn_add"><i class="fas fa-plus"></i> Thêm món ăn</a>
+            <a href="<?php echo SITEURL; ?>admin/add_food.php" class="btn_add"><i class="fas fa-plus"></i> Thêm món ăn</a>
             <table class="tbl_full">
                 <tr>
                     <th>STT</th>
