@@ -3,164 +3,167 @@
     require_once 'include/header.php'
 ?>
     <!-- fOOD sEARCH Section Starts Here -->
-    <section class="food-search text-center">
+    <!-- <section class="food-search text-center">
         <div class="container">
             <form action="" method="POST">
-                <input type="search" name="search" placeholder="Search for Food.." required>
-                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+                <input type="search" name="search" placeholder="Tìm kiếm đồ ăn ..." required>
+                <input type="submit" name="submit" value="Tìm kiếm" class="btn btn-primary">
             </form>
-
         </div>
-    </section>
+    </section> -->
     <!-- fOOD sEARCH Section Ends Here -->
 
     <!-- CAtegories Section Starts Here -->
     <section class="categories">
         <div class="container">
-            <h2 class="text-center">Món Ăn Được Yêu Thích Nhất </h2>
-
-            <a href="category-foods.php">
-                <div class="box-3 float-container">
-                    <img src="images/pizza.jpg" alt="Pizza" class="img-responsive img-curve">
-
-                    <h3 class="float-text text-white">Pizza</h3>
+            <h2 class="text-center">Đồ ăn mới nhất </h2>
+            <div class="list_food-menu">
+                <div class="row">
+                    <div class="col">
+                        <div class="column-first ">
+                        
+                            <a href="category-foods.php" class="picture_show">
+                            <div class="dialog">
+                                <div class="des_food">
+                                    <h4 class="title_food">Khô gà</h4>
+                                    <p class="prices_food">120.000 VND</p>
+                                    <button class="btn_buynow">Mua ngay</button>
+                                </div>
+                            </div>
+                                <img src="images/BoKho.jpg" alt="Pizza" class="picture-food_items">
+                            </a>
+                            <a href="category-foods.php" class="picture_show">
+                            <div class="dialog">
+                                <div class="des_food">
+                                        <h4 class="title_food">Khô gà</h4>
+                                        <p class="prices_food">120.000 VND</p>
+                                        <button class="btn_buynow">Mua ngay</button>
+                                </div>
+                            </div>
+                                <img src="images/BoKho.jpg" alt="Pizza" class="picture-food_items">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="column-second ">
+                            <a href="category-foods.php" class="picture_show">
+                                <div class="dialog">
+                                    <div class="des_food">
+                                    <h4 class="title_food">Khô gà</h4>
+                                    <p class="prices_food">120.000 VND</p>
+                                    <button class="btn_buynow">Mua ngay</button>
+                                </div>
+                                </div>
+                                <img src="images/Khoga.jpg" alt="Pizza" class="picture-food_items">
+                            </a>
+                            <a href="category-foods.php" class="picture_show">
+                            <div class="dialog">
+                                    <div class="des_food">
+                                    <h4 class="title_food">Khô gà</h4>
+                                    <p class="prices_food">120.000 VND</p>
+                                    <button class="btn_buynow">Mua ngay</button>
+                                </div>
+                                </div>
+                                <img src="images/Khoga.jpg" alt="Pizza" class="picture-food_items">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                    <div class="column-third ">
+                            <a href="category-foods.php" class="picture_show">
+                            <div class="dialog">
+                                <div class="des_food">
+                                    <h4 class="title_food">Khô gà</h4>
+                                    <p class="prices_food">120.000 VND</p>
+                                    <button class="btn_buynow">Mua ngay</button>
+                                </div>
+                            </div>
+                                <img src="images/Khoga.jpg" alt="Pizza" class="picture-food_items">
+                            </a>
+                            <a href="category-foods.php" class="picture_show">
+                            <div class="dialog">
+                                    <div class="des_food">
+                                    <h4 class="title_food">Khô gà</h4>
+                                    <p class="prices_food">120.000 VND</p>
+                                    <button class="btn_buynow">Mua ngay</button>
+                                </div>
+                                </div>
+                                <img src="images/BoKho.jpg" alt="Pizza" class="picture-food_items">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </a>
-
-            <a href="#">
-                <div class="box-3 float-container">
-                    <img src="images/burger.jpg" alt="Burger" class="img-responsive img-curve">
-
-                    <h3 class="float-text text-white">Burger</h3>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="box-3 float-container">
-                    <img src="images/momo.jpg" alt="Momo" class="img-responsive img-curve">
-
-                    <h3 class="float-text text-white">Momo</h3>
-                </div>
-            </a>
-
-            <div class="clearfix"></div>
+            </div>
         </div>
     </section>
     <!-- Categories Section Ends Here -->
 
     <!-- fOOD MEnu Section Starts Here -->
-    <section class="food-menu">
+    <div class="food-menu">
         <div class="container">
-            <h2 class="text-center">Food Menu</h2>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+            <h2 class="text-center">Danh sách đồ ăn </h2>
+            <div class="list_order-food">
+            <div class="food_box">
+                <div class="food-image">
+                    <img src="images/Khoga.jpg" alt="Photo" class="img_food">
                 </div>
-
-                <div class="food-menu-desc">
-                    <h4>Food Title</h4>
-                    <p class="food-price">$2.3</p>
+                <div class="food_desc">
+                <h4>Khô gà</h4>
+                    <p class="food-price">120.000 VNĐ</p>
                     <p class="food-detail">
                         Made with Italian Sauce, Chicken, and organice vegetables.
                     </p>
                     <br>
-
-                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                    <a href="order.html" class="btn btn-primary">Mua ngay</a>
                 </div>
             </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-burger.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+            <div class="food_box">
+                <div class="food-image">
+                    <img src="images/Khoga.jpg" alt="Photo" class="img_food">
                 </div>
-
-                <div class="food-menu-desc">
-                    <h4>Smoky Burger</h4>
-                    <p class="food-price">$2.3</p>
+                <div class="food_desc">
+                <h4>Khô gà</h4>
+                    <p class="food-price">120.000 VNĐ</p>
                     <p class="food-detail">
                         Made with Italian Sauce, Chicken, and organice vegetables.
                     </p>
                     <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <a href="order.html" class="btn btn-primary">Mua ngay</a>
                 </div>
             </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-burger.jpg" alt="Chicke Hawain Burger" class="img-responsive img-curve">
+            <div class="food_box">
+                <div class="food-image">
+                    <img src="images/Khoga.jpg" alt="Photo" class="img_food">
                 </div>
-
-                <div class="food-menu-desc">
-                    <h4>Nice Burger</h4>
-                    <p class="food-price">$2.3</p>
+                <div class="food_desc">
+                <h4>Khô gà</h4>
+                    <p class="food-price">120.000 VNĐ</p>
                     <p class="food-detail">
                         Made with Italian Sauce, Chicken, and organice vegetables.
                     </p>
                     <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <a href="order.html" class="btn btn-primary">Mua ngay</a>
                 </div>
             </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+            <div class="food_box">
+                <div class="food-image">
+                    <img src="images/Khoga.jpg" alt="Photo" class="img_food">
                 </div>
-
-                <div class="food-menu-desc">
-                    <h4>Food Title</h4>
-                    <p class="food-price">$2.3</p>
+                <div class="food_desc">
+                <h4>Khô gà</h4>
+                    <p class="food-price">120.000 VNĐ</p>
                     <p class="food-detail">
                         Made with Italian Sauce, Chicken, and organice vegetables.
                     </p>
                     <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <a href="order.html" class="btn btn-primary">Mua ngay</a>
                 </div>
             </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Food Title</h4>
-                    <p class="food-price">$2.3</p>
-                    <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
-                    </p>
-                    <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-momo.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Chicken Steam Momo</h4>
-                    <p class="food-price">$2.3</p>
-                    <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
-                    </p>
-                    <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-            <div class="clearfix"></div>
         </div>
-
-        <p class="text-center">
-            <a href="#">See All Foods</a>
-        </p>
-    </section>
+    </div>
+    <div class="btn_See">
+        <a href="#" class="btn_seeAll">See All Foods</a>
+    </div>
     <!-- fOOD Menu Section Ends Here -->
 <?php
     require_once 'include/footer.php'
