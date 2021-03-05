@@ -55,7 +55,7 @@
                     <th>STT</th>
                     <th>Họ tên</th>
                     <th>Tài khoản</th>
-                    <th>Hoạt động</th>
+                    <th>Tác vụ</th>
                 </tr>
 
                 <?php
