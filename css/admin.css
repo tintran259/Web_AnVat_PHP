@@ -1,4 +1,174 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+
+/* Menu */
+
+.menu {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    color: #ff4757;
+}
+
+
+/* Main Content */
+
+.main_content {
+    background: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 18%;
+    background: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/* Manage Admin */
+
+.tbl_add {
+    width: 30%;
+}
+
+.tbl_full {
+    width: 100%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn_add {
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+    padding: 7px 20px;
+    color: #f1f2f6;
+    transition: 0.5s;
+    font-weight: 600;
+    background: #1e90ff;
+    border: 1px solid #1e90ff;
+}
+
+.btn_add:hover {
+    border: 1px solid #3742fa;
+    background: #3742fa;
+}
+
+.btn_update {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    transition: 0.5s;
+    font-weight: 600;
+    background: #2ed573;
+    border: 1px solid #2ed573;
+}
+
+.btn_update:hover {
+    background: #44bd32;
+    border: 1px solid #44bd32;
+}
+
+.btn_delete {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: #f1f2f6;
+    transition: 0.5s;
+    font-weight: 500;
+    background: #ff6348;
+    border: 1px solid #ff6348;
+}
+
+.btn_delete:hover {
+    background: #e84118;
+    border: 1px solid #e84118;
+}
+
+.success {
+    color: #44bd32;
+}
+
+.error {
+    color: #e84118;
+}
+
+
+/* footer admin */
+
+.footer {
+    width: 100%;
+    background: #ff4757;
+    color: white;
+}
+
+.footer_text {
+    text-align: center;
+}
+
+.footer_text>a {
+    text-decoration: none;
+    color: rgb(214, 213, 213);
+}
+
+
+/* Login */
+
+.login {
+    border: 1px solid grey;
+    width: 30%;
+    margin: 5% auto;
+    padding: 2%;
+}
+
+.user_form {
+    margin: 20px 0;
 }
