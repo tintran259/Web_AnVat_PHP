@@ -32,6 +32,12 @@
                     echo $_SESSION['upload'];// Hiện thị phiên thông báo
                     unset($_SESSION['upload']);// Hủy phiên thông báo
                 } 
+
+                if(isset($_SESSION['update']))
+                {
+                    echo $_SESSION['update'];// Hiện thị phiên thông báo
+                    unset($_SESSION['update']);// Hủy phiên thông báo
+                } 
             ?>
             <table class="tbl_full">
                 <tr>
@@ -81,7 +87,7 @@
                                         ?>
                                     </td>
                                     <td>
-                                        <a href="" class="btn_update"><i class="fas fa-edit"></i> Cập nhật</a>
+                                        <a href="<?php echo SITEURL;?>admin/update_food.php?food_id=<?php echo $id;?>" class="btn_update"><i class="fas fa-edit"></i> Cập nhật</a>
                                         <a href="<?php echo SITEURL;?>admin/delete_food.php?food_id=<?php echo $id;?>&food_image=<?php echo $image;?>" class="btn_delete"><i class="far fa-trash-alt"></i>Xóa</a>
                                     </td>
                                 </tr>

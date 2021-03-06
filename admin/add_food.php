@@ -4,7 +4,7 @@
 <!-- MainContent Sections Start -->
 <div class="main_content">
         <div class="wrapper">
-            <h2>Thêm Admin</h2>
+            <h2>Thêm món ăn</h2>
 
             <?php
             // kiem tra thong bao
