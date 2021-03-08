@@ -3,7 +3,7 @@
     session_start();
 
     // Tạo ra những hằng số để chứa những giá trị không được lặp lại
-    define('SITEURL','http://localhost/MeAnVat_PHP/');
+    define('SITEURL','http://localhost/Web_AnVat_PHP/');
     define('LOCALHOST','localhost');
     define('DB_USERNAME','root');
     define('DB_PASSWORD','');

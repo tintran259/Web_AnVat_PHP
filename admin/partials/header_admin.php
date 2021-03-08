@@ -32,9 +32,6 @@
                     <a href="manage_admin.php">Admin</a>
                 </li>
                 <li>
-                    <a href="manage_category.php">Loại món ăn</a>
-                </li>
-                <li>
                     <a href="manage_food.php">Món ăn</a>
                 </li>
                 <li>
