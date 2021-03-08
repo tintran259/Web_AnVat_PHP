@@ -21,23 +21,22 @@
                 <div class="row">
                     <div class="col">
                         <div class="column-first ">
-                        
-                            <a href="category-foods.php" class="picture_show">
+                            <a href="food_detail.php" class="picture_show">
                             <div class="dialog">
                                 <div class="des_food">
                                     <h4 class="title_food">Khô gà</h4>
                                     <p class="prices_food">120.000 VND</p>
-                                    <button class="btn_buynow">Mua ngay</button>
+                                    <button class="btn_buynow">Đặt ngay</button>
                                 </div>
                             </div>
                                 <img src="images/BoKho.jpg" alt="Pizza" class="picture-food_items">
                             </a>
-                            <a href="category-foods.php" class="picture_show">
+                            <a href="food_detail.php" class="picture_show">
                             <div class="dialog">
                                 <div class="des_food">
                                         <h4 class="title_food">Khô gà</h4>
                                         <p class="prices_food">120.000 VND</p>
-                                        <button class="btn_buynow">Mua ngay</button>
+                                        <button class="btn_buynow">Đặt ngay</button>
                                 </div>
                             </div>
                                 <img src="images/BoKho.jpg" alt="Pizza" class="picture-food_items">
@@ -46,22 +45,22 @@
                     </div>
                     <div class="col">
                         <div class="column-second ">
-                            <a href="category-foods.php" class="picture_show">
+                            <a href="food_detail.php" class="picture_show">
                                 <div class="dialog">
                                     <div class="des_food">
                                     <h4 class="title_food">Khô gà</h4>
                                     <p class="prices_food">120.000 VND</p>
-                                    <button class="btn_buynow">Mua ngay</button>
+                                    <button class="btn_buynow">Đặt ngay</button>
                                 </div>
                                 </div>
                                 <img src="images/Khoga.jpg" alt="Pizza" class="picture-food_items">
                             </a>
-                            <a href="category-foods.php" class="picture_show">
+                            <a href="food_detail.php" class="picture_show">
                             <div class="dialog">
                                     <div class="des_food">
                                     <h4 class="title_food">Khô gà</h4>
                                     <p class="prices_food">120.000 VND</p>
-                                    <button class="btn_buynow">Mua ngay</button>
+                                    <button class="btn_buynow">Đặt ngay</button>
                                 </div>
                                 </div>
                                 <img src="images/Khoga.jpg" alt="Pizza" class="picture-food_items">
@@ -70,22 +69,22 @@
                     </div>
                     <div class="col">
                     <div class="column-third ">
-                            <a href="category-foods.php" class="picture_show">
+                            <a href="food_detail.php" class="picture_show">
                             <div class="dialog">
                                 <div class="des_food">
                                     <h4 class="title_food">Khô gà</h4>
                                     <p class="prices_food">120.000 VND</p>
-                                    <button class="btn_buynow">Mua ngay</button>
+                                    <button class="btn_buynow">Đặt ngay</button>
                                 </div>
                             </div>
                                 <img src="images/Khoga.jpg" alt="Pizza" class="picture-food_items">
                             </a>
-                            <a href="category-foods.php" class="picture_show">
+                            <a href="food_detail.php" class="picture_show">
                             <div class="dialog">
                                     <div class="des_food">
                                     <h4 class="title_food">Khô gà</h4>
                                     <p class="prices_food">120.000 VND</p>
-                                    <button class="btn_buynow">Mua ngay</button>
+                                    <button class="btn_buynow">Đặt ngay</button>
                                 </div>
                                 </div>
                                 <img src="images/BoKho.jpg" alt="Pizza" class="picture-food_items">
@@ -114,7 +113,7 @@
                         Made with Italian Sauce, Chicken, and organice vegetables.
                     </p>
                     <br>
-                    <a href="order.html" class="btn btn-primary">Mua ngay</a>
+                    <a href="order.html" class="btn btn-primary">Đặt ngay</a>
                 </div>
             </div>
             <div class="food_box">
@@ -128,7 +127,7 @@
                         Made with Italian Sauce, Chicken, and organice vegetables.
                     </p>
                     <br>
-                    <a href="order.html" class="btn btn-primary">Mua ngay</a>
+                    <a href="order.html" class="btn btn-primary">Đặt ngay</a>
                 </div>
             </div>
             <div class="food_box">
@@ -142,7 +141,7 @@
                         Made with Italian Sauce, Chicken, and organice vegetables.
                     </p>
                     <br>
-                    <a href="order.html" class="btn btn-primary">Mua ngay</a>
+                    <a href="order.html" class="btn btn-primary">Đặt ngay</a>
                 </div>
             </div>
             <div class="food_box">
@@ -156,7 +155,7 @@
                         Made with Italian Sauce, Chicken, and organice vegetables.
                     </p>
                     <br>
-                    <a href="order.html" class="btn btn-primary">Mua ngay</a>
+                    <a href="order.html" class="btn btn-primary">Đặt ngay</a>
                 </div>
             </div>
         </div>

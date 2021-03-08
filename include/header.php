@@ -8,6 +8,8 @@
 
     <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_detail.css">
+    <link rel="stylesheet" href="css/style-order.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
@@ -31,14 +33,16 @@
          </div>
          <div class="cart">
             <div class="cart_form-search">
-               <img src="images/search.png"   class="icon_search" alt="GioHnang">
+               <a href="food-search.php" class="icon_search">
+                  <img src="images/search.png"   class="icon_search-img" alt="GioHnang">
+               </a>
                <input type="text" class="input-search" placeholder="Tìm kiếm đồ ăn ...">
             </div>
             <div class="cart_press">
                <div class="noti">
                   <p class="number_noti">01</p>
                </div>
-               <a href="#" class="btn_cart">
+               <a href="order.php" class="btn_cart">
                   <img src="images/cart.png"   class="icon_cart" alt="GioHnang">
                </a>
             </div>

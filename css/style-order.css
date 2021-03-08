@@ -1,0 +1,20 @@
+.form-table {
+  width: 88%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.payment {
+  margin-top: 80px;
+  float: right;
+}
+.payment > .btn-pay {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #323c9e;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.count_prices {
+  font-weight: bold;
+}

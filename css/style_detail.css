@@ -1,0 +1,154 @@
+.food_detail {
+  margin-top: 50px;
+}
+
+.col > .food_detail-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.food_detail-img > .img_food-items {
+  width: 50%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.food_detail-img > .img_list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  cursor: pointer;
+}
+.img_list-items > .img_item {
+  width: 10%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.food_detail-des > .title-items {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  margin-right: 20px;
+}
+.food_detail-des > .name-items {
+  font-size: 26px;
+  font-weight: bold;
+}
+.col > .btn-buy {
+  position: absolute;
+  bottom: 23%;
+  right: 11%;
+}
+.btn-buy > a {
+  padding: 15px 30px;
+  background-color: #3030e0;
+  border-radius: 13px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.btn-buy > a:hover {
+  color: #fff;
+}
+.col-des_items {
+  position: relative;
+}
+.feedback-food {
+  margin-top: 100px;
+}
+.title-feedback {
+  margin-bottom: 50px;
+}
+.row > .col-input_feedback {
+  flex: none;
+  width: 70%;
+}
+.row > .col-btn_feedback {
+  flex: none;
+  width: 30%;
+}
+.col-btn_feedback > a {
+  padding: 10px 20px;
+  background-color: #424141;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.col-btn_feedback > a:hover {
+  color: #fff;
+}
+.col-btn_feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-feedback {
+  text-align: center;
+}
+.star_feedback {
+  margin: 0 auto;
+  width: 215px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+.star_feedback > .icon_star {
+  font-size: 20px;
+  cursor: pointer;
+}
+.star_feedback > .icon_star:first-child:hover {
+  color: yellow;
+  transition: all 0.3s;
+}
+
+.star_feedback > .icon_star:nth-child(2):hover {
+  color: yellow;
+  transition: all 0.3s;
+}
+.form-feedback > .input_feedback {
+  width: 88%;
+  height: 130px;
+  border-radius: 15px;
+  outline: none;
+  border: 1px solid #9c9b9b;
+  padding: 0px 20px;
+}
+.list-Comment {
+  margin-top: 70px;
+}
+.avatar-user_feedback {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar-user_feedback > .img-user_feedback {
+  width: 4%;
+}
+.avatar-user_feedback > .star_feedback-user {
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  margin-left: 20px;
+  padding-top: 6px;
+}
+.star_feedback-user > span {
+  font-weight: 600;
+}
+.comment-items {
+  margin-bottom: 30px;
+}
+.text-comment {
+  margin-left: 6%;
+}
